@@ -49,8 +49,7 @@ Children:
         DataType: Boolean
   - Name: MinimumMessageSecurityMode
     Type: PropertyType
-    DataType: ns=33;MessageSecurityModeEnum
+    DataType: MessageSecurityModeEnum
   - Name: MinimumSecurityPolicy
     Type: PropertyType
-    DataType: ns=33;SecurityPolicyEnum
-- File: OPCUAClient1/OPCUAClient1.yaml
+    DataType: SecurityPolicyEnum

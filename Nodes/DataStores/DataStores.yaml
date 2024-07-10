@@ -56,6 +56,9 @@ Children:
         - Name: LocalTime
           Type: StoreColumn
           DataType: DateTime
+        - Name: 'Message_it-IT'
+          Type: StoreColumn
+          DataType: String
       - Name: RecordLimit
         Type: BaseDataVariableType
         DataType: UInt32

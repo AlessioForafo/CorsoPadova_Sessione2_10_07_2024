@@ -141,24 +141,16 @@ Project:
   38:
    Uri: '608c45f016fe55a9cb3f6ca6955ffafc#http://opcfoundation.org/UA/DI/'
    ServerUri: 608c45f016fe55a9cb3f6ca6955ffafc
-  39:
-   Uri: 'urn:FTOptix:OPCUAClient'
-   Module: FTOptix.OPCUAClient
-   Version: 1.2
-  40:
-   Uri: 'urn:FTOptix:OPCUAClient:Net'
-   Module: FTOptix.OPCUAClient.Net
-   Version: 1.1
  Statistics:
-  TotalNodeCount: 6409
-  Objects: 832
-  ObjectTypes: 35
-  Variables: 5485
-  VariableTypes: 1
-  DataTypes: 8
-  Methods: 48
-  References: 119
+  TotalNodeCount: 3796
+  Objects: 741
+  ObjectTypes: 31
+  Variables: 2999
+  VariableTypes: 0
+  DataTypes: 0
+  Methods: 25
+  References: 110
   ReferenceTypes: 0
-  Files: 96
+  Files: 29
  Nodes:
  - File: Nodes/CorsoPadova_Sessione2_10_07_2024.yaml
