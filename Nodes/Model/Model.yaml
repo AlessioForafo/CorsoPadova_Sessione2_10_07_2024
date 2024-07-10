@@ -1,19 +1,25 @@
 Name: Model
+Id: g=462847326c19f2aba29b52427474c9b5
 Type: ModelCategoryFolder
 Children:
 - Name: ModelVariable1
+  Id: g=91732514320832b2c8cc494ba78a2972
   Type: BaseDataVariableType
   DataType: Int32
 - Name: Allarmi
+  Id: g=d0e08c88a269cad7ce9f78d5923fafdb
   Type: BaseDataVariableType
   DataType: Int32
 - Name: VarDL1
+  Id: g=d0558e26841e1b2717a1bcb63497fbdf
   Type: BaseDataVariableType
   DataType: Int32
 - Name: VarDL2
+  Id: g=6d03f79083199087572a888a99fd2481
   Type: BaseDataVariableType
   DataType: Int32
 - Name: VarDL3
+  Id: g=1a82dee74cbe0bd95c161d94c1b22a60
   Type: BaseDataVariableType
   DataType: Int32
 - File: VariabiliRicetta/VariabiliRicetta.yaml

@@ -23,6 +23,18 @@ Project:
    Uri: 'urn:FTOptix:NetLogic'
    Module: FTOptix.NetLogic
    Version: 3.0
+  7:
+   Uri: '608c45f016fe55a9cb3f6ca6955ffafc#urn:3K9SSL3:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 608c45f016fe55a9cb3f6ca6955ffafc
+  8:
+   Uri: '608c45f016fe55a9cb3f6ca6955ffafc#http://PLCopen.org/OpcUa/IEC61131-3/'
+   ServerUri: 608c45f016fe55a9cb3f6ca6955ffafc
+  9:
+   Uri: '608c45f016fe55a9cb3f6ca6955ffafc#http://www.unifiedautomation.com/DemoServer/'
+   ServerUri: 608c45f016fe55a9cb3f6ca6955ffafc
+  10:
+   Uri: '608c45f016fe55a9cb3f6ca6955ffafc#http://opcfoundation.org/UA/DI/'
+   ServerUri: 608c45f016fe55a9cb3f6ca6955ffafc
  Statistics:
   TotalNodeCount: 0
   Objects: 0

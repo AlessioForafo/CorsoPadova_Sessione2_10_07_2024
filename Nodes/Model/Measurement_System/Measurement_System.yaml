@@ -1,66 +1,82 @@
 Name: Measurement System
+Id: g=47f45795011f4891c2679652ff9bef1b
 Type: FolderType
 Children:
 - Name: AnalogVariable1
+  Id: g=f1aac753b5b5709f9c721aa286cee149
   Type: AnalogItemType
   DataType: Float
   Children:
   - Name: EURange
+    Id: g=5e447cdb424900636a4bd976486d15cf
     Type: RangeType
     DataType: Range
     Children:
     - Name: Low
+      Id: g=0daefb4c1b2793d01bd2dafc78d1bbb6
       Type: BaseVariableType
       DataType: Double
       ReferenceType: HasProperty
     - Name: High
+      Id: g=b1d3f381ab4f9e58d31858f1349a7455
       Type: BaseVariableType
       DataType: Double
       ReferenceType: HasProperty
     - Name: Constrain
+      Id: g=6bcae428b7947ba3d748676ce5027906
       Type: BaseVariableType
       DataType: Boolean
       ReferenceType: HasProperty
   - Name: EngineeringUnits
+    Id: g=a7bffff8aeec5125ee5cd185e2e503bb
     Type: EUInformationType
     DataType: EUInformation
     Children:
     - Name: UnitId
+      Id: g=d977f90fe9c8a53f4f81522bdead6d6c
       Type: BaseVariableType
       DataType: Int32
       ReferenceType: HasProperty
       Value: 4408652
     - Name: DisplayName
+      Id: g=878be58d4274ab61304493f42d7e86eb
       Type: BaseVariableType
       DataType: LocalizedText
       ReferenceType: HasProperty
     - Name: Description
+      Id: g=5b30825ee7f15154a3292c256157a57d
       Type: BaseVariableType
       DataType: LocalizedText
       ReferenceType: HasProperty
 - Name: Variable1
+  Id: g=1871b539c3ca6a71f9ab133bdc3954e5
   Type: BaseDataVariableType
   DataType: Int32
   Children:
   - Name: ns=0;EngineeringUnits
+    Id: g=b9e18661025bb43103d3b797be7c0055
     Type: EUInformationType
     DataType: EUInformation
     DisplayName: {"NamespaceIndex":0,"TextId":"EngineeringUnitsDisplayName"}
     Children:
     - Name: UnitId
+      Id: g=b412b4bfcf14ee94245db1cebdb97a07
       Type: BaseVariableType
       DataType: Int32
       ReferenceType: HasProperty
       Value: 4408652
     - Name: DisplayName
+      Id: g=9e6cf9e948646e779a9abe5ae6e9ea1e
       Type: BaseVariableType
       DataType: LocalizedText
       ReferenceType: HasProperty
     - Name: Description
+      Id: g=05c4e6e63812fc5b98777588563972c5
       Type: BaseVariableType
       DataType: LocalizedText
       ReferenceType: HasProperty
 - Name: Variable2
+  Id: g=fc7cc2144888c730828d7c882a9b4e9a
   Type: BaseDataVariableType
   DataType: Int32
 - Name: Variable3

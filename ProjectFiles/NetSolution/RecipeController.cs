@@ -13,6 +13,8 @@ using System.Linq;
 using System.Globalization;
 using FTOptix.Store;
 using FTOptix.WebUI;
+using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
 
 #endregion
 

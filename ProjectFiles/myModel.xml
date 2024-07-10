@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UANodeSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <NamespaceUris>
+    <Uri>CorsoPadova_Sessione2_10_07_2024</Uri>
+    <Uri>urn:FTOptix:Core</Uri>
+    <Uri>urn:FTOptix:HMIProject</Uri>
+  </NamespaceUris>
+  <Models>
+    <Model ModelUri="CorsoPadova_Sessione2_10_07_2024">
+      <RequiredModel ModelUri="http://opcfoundation.org/UA/"/>
+      <RequiredModel ModelUri="urn:FTOptix:Core" Version="3.0.1.81"/>
+      <RequiredModel ModelUri="urn:FTOptix:HMIProject" Version="6.1.0.43"/>
+    </Model>
+  </Models>
+  <Aliases/>
+  <UAVariable NodeId="ns=1;g=d977f90f-e9c8-a53f-4f81-522bdead6d6c" ParentNodeId="ns=1;g=a7bffff8-aeec-5125-ee5c-d185e2e503bb" BrowseName="2:UnitId" WriteMask="594038" DataType="i=6" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=62</Reference>
+      <Reference ReferenceType="i=46" IsForward="false">ns=1;g=a7bffff8-aeec-5125-ee5c-d185e2e503bb</Reference>
+    </References>
+    <Value>
+      <uax:Int32>4408652</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;g=91732514-3208-32b2-c8cc-494ba78a2972" ParentNodeId="ns=1;g=46284732-6c19-f2ab-a29b-52427474c9b5" BrowseName="1:ModelVariable1" WriteMask="594038" DataType="i=6" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference ReferenceType="i=47" IsForward="false">ns=1;g=46284732-6c19-f2ab-a29b-52427474c9b5</Reference>
+    </References>
+    <Value>
+      <uax:Int32>0</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;g=fc7cc214-4888-c730-828d-7c882a9b4e9a" ParentNodeId="ns=1;g=47f45795-011f-4891-c267-9652ff9bef1b" BrowseName="1:Variable2" WriteMask="594038" DataType="i=6" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference ReferenceType="i=47" IsForward="false">ns=1;g=47f45795-011f-4891-c267-9652ff9bef1b</Reference>
+    </References>
+    <Value>
+      <uax:Int32>0</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAObject NodeId="ns=1;g=c121a621-3e3d-d123-f7cf-ab0287b067dc" ParentNodeId="ns=1;g=46284732-6c19-f2ab-a29b-52427474c9b5" BrowseName="1:RetentivityTest" WriteMask="69876">
+    <References>
+      <Reference ReferenceType="i=40">i=61</Reference>
+      <Reference ReferenceType="i=47" IsForward="false">ns=1;g=46284732-6c19-f2ab-a29b-52427474c9b5</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=1;g=9fa64724-3821-2fdd-18be-eb25fb45cda4" ParentNodeId="ns=1;g=2a586555-f146-447c-8844-be86e34b4d4b" BrowseName="1:VarRic4" WriteMask="594038" DataType="i=12" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference ReferenceType="i=47" IsForward="false">ns=1;g=2a586555-f146-447c-8844-be86e34b4d4b</Reference>
+    </References>
+    <Value>
+      <uax:String>0</uax:String>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;g=d0558e26-841e-1b27-17a1-bcb63497fbdf" ParentNodeId="ns=1;g=46284732-6c19-f2ab-a29b-52427474c9b5" BrowseName="1:VarDL1" WriteMask="594038" DataType="i=6" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference ReferenceType="i=47" IsForward="false">ns=1;g=46284732-6c19-f2ab-a29b-52427474c9b5</Reference>
+    </References>
+    <Value>
+      <uax:Int32>0</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;g=6bcae428-b794-7ba3-d748-676ce5027906" ParentNodeId="ns=1;g=5e447cdb-4249-0063-6a4b-d976486d15cf" BrowseName="2:Constrain" WriteMask="594038" DataType="i=1" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=62</Reference>
+      <Reference ReferenceType="i=46" IsForward="false">ns=1;g=5e447cdb-4249-0063-6a4b-d976486d15cf</Reference>
+    </References>
+    <Value>
+      <uax:Boolean>false</uax:Boolean>
+    </Value>
+  </UAVariable>
+  <UAObject NodeId="ns=1;g=46284732-6c19-f2ab-a29b-52427474c9b5" BrowseName="1:Model" WriteMask="69876">
+    <References>
+      <Reference ReferenceType="i=40">ns=3;i=45</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=1;g=1871b539-c3ca-6a71-f9ab-133bdc3954e5" ParentNodeId="ns=1;g=47f45795-011f-4891-c267-9652ff9bef1b" BrowseName="1:Variable1" WriteMask="594038" DataType="i=6" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference ReferenceType="i=47" IsForward="false">ns=1;g=47f45795-011f-4891-c267-9652ff9bef1b</Reference>
+    </References>
+    <Value>
+      <uax:Int32>0</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;g=0daefb4c-1b27-93d0-1bd2-dafc78d1bbb6" ParentNodeId="ns=1;g=5e447cdb-4249-0063-6a4b-d976486d15cf" BrowseName="2:Low" WriteMask="594038" DataType="i=11" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=62</Reference>
+      <Reference ReferenceType="i=46" IsForward="false">ns=1;g=5e447cdb-4249-0063-6a4b-d976486d15cf</Reference>
+    </References>
+    <Value>
+      <uax:Double>0</uax:Double>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;g=a391c34d-dafe-d5a6-fba4-950ad8d597f3" ParentNodeId="ns=1;g=2a586555-f146-447c-8844-be86e34b4d4b" BrowseName="1:VarRic3" WriteMask="594038" DataType="i=1" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference ReferenceType="i=47" IsForward="false">ns=1;g=2a586555-f146-447c-8844-be86e34b4d4b</Reference>
+    </References>
+    <Value>
+      <uax:Boolean>false</uax:Boolean>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;g=f1aac753-b5b5-709f-9c72-1aa286cee149" ParentNodeId="ns=1;g=47f45795-011f-4891-c267-9652ff9bef1b" BrowseName="1:AnalogVariable1" WriteMask="594038" DataType="i=10" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=2368</Reference>
+      <Reference ReferenceType="i=47" IsForward="false">ns=1;g=47f45795-011f-4891-c267-9652ff9bef1b</Reference>
+    </References>
+    <Value>
+      <uax:Float>0</uax:Float>
+    </Value>
+  </UAVariable>
+  <UAObject NodeId="ns=1;g=2a586555-f146-447c-8844-be86e34b4d4b" ParentNodeId="ns=1;g=46284732-6c19-f2ab-a29b-52427474c9b5" BrowseName="1:VariabiliRicetta" WriteMask="69876">
+    <References>
+      <Reference ReferenceType="i=40">i=61</Reference>
+      <Reference ReferenceType="i=47" IsForward="false">ns=1;g=46284732-6c19-f2ab-a29b-52427474c9b5</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=1;g=5b30825e-e7f1-5154-a329-2c256157a57d" ParentNodeId="ns=1;g=a7bffff8-aeec-5125-ee5c-d185e2e503bb" BrowseName="2:Description" WriteMask="594038" DataType="i=21" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=62</Reference>
+      <Reference ReferenceType="i=46" IsForward="false">ns=1;g=a7bffff8-aeec-5125-ee5c-d185e2e503bb</Reference>
+    </References>
+    <Value>
+      <uax:LocalizedText>
+        <uax:Locale/>
+        <uax:Text/>
+      </uax:LocalizedText>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;g=b9e18661-025b-b431-03d3-b797be7c0055" ParentNodeId="ns=1;g=1871b539-c3ca-6a71-f9ab-133bdc3954e5" BrowseName="EngineeringUnits" WriteMask="594038" DataType="i=887" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">ns=2;i=4</Reference>
+      <Reference ReferenceType="i=46" IsForward="false">ns=1;g=1871b539-c3ca-6a71-f9ab-133bdc3954e5</Reference>
+    </References>
+    <Value>
+      <uax:ExtensionObject>
+        <uax:TypeId>
+          <uax:Identifier>i=889</uax:Identifier>
+        </uax:TypeId>
+        <uax:Body>
+          <uax:ByteString>AAAAAAAAAAADAAAAAAAAAAADAAAAAAAAAAA=</uax:ByteString>
+        </uax:Body>
+      </uax:ExtensionObject>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;g=ab6e1c6b-5cac-8754-061c-528d042b80cf" ParentNodeId="ns=1;g=2a586555-f146-447c-8844-be86e34b4d4b" BrowseName="1:VarRic1" WriteMask="594038" DataType="i=6" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference ReferenceType="i=47" IsForward="false">ns=1;g=2a586555-f146-447c-8844-be86e34b4d4b</Reference>
+    </References>
+    <Value>
+      <uax:Int32>0</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;g=767fe476-a789-256f-1729-95c4bb1ece7e" ParentNodeId="ns=1;g=c121a621-3e3d-d123-f7cf-ab0287b067dc" BrowseName="1:Variable1" WriteMask="594038" DataType="i=6" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference ReferenceType="i=47" IsForward="false">ns=1;g=c121a621-3e3d-d123-f7cf-ab0287b067dc</Reference>
+    </References>
+    <Value>
+      <uax:Int32>0</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;g=b1d3f381-ab4f-9e58-d318-58f1349a7455" ParentNodeId="ns=1;g=5e447cdb-4249-0063-6a4b-d976486d15cf" BrowseName="2:High" WriteMask="594038" DataType="i=11" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=62</Reference>
+      <Reference ReferenceType="i=46" IsForward="false">ns=1;g=5e447cdb-4249-0063-6a4b-d976486d15cf</Reference>
+    </References>
+    <Value>
+      <uax:Double>0</uax:Double>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;g=d0e08c88-a269-cad7-ce9f-78d5923fafdb" ParentNodeId="ns=1;g=46284732-6c19-f2ab-a29b-52427474c9b5" BrowseName="1:Allarmi" WriteMask="594038" DataType="i=6" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference ReferenceType="i=47" IsForward="false">ns=1;g=46284732-6c19-f2ab-a29b-52427474c9b5</Reference>
+    </References>
+    <Value>
+      <uax:Int32>0</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;g=878be58d-4274-ab61-3044-93f42d7e86eb" ParentNodeId="ns=1;g=a7bffff8-aeec-5125-ee5c-d185e2e503bb" BrowseName="2:DisplayName" WriteMask="594038" DataType="i=21" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=62</Reference>
+      <Reference ReferenceType="i=46" IsForward="false">ns=1;g=a7bffff8-aeec-5125-ee5c-d185e2e503bb</Reference>
+    </References>
+    <Value>
+      <uax:LocalizedText>
+        <uax:Locale/>
+        <uax:Text/>
+      </uax:LocalizedText>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;g=6d03f790-8319-9087-572a-888a99fd2481" ParentNodeId="ns=1;g=46284732-6c19-f2ab-a29b-52427474c9b5" BrowseName="1:VarDL2" WriteMask="594038" DataType="i=6" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference ReferenceType="i=47" IsForward="false">ns=1;g=46284732-6c19-f2ab-a29b-52427474c9b5</Reference>
+    </References>
+    <Value>
+      <uax:Int32>0</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAObject NodeId="ns=1;g=47f45795-011f-4891-c267-9652ff9bef1b" ParentNodeId="ns=1;g=46284732-6c19-f2ab-a29b-52427474c9b5" BrowseName="1:Measurement System" WriteMask="69876">
+    <References>
+      <Reference ReferenceType="i=40">i=61</Reference>
+      <Reference ReferenceType="i=47" IsForward="false">ns=1;g=46284732-6c19-f2ab-a29b-52427474c9b5</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=1;g=5782eea7-b22c-0b91-e897-98a52c5180d4" ParentNodeId="ns=1;g=47f45795-011f-4891-c267-9652ff9bef1b" BrowseName="1:Variable3" WriteMask="594038" DataType="i=6" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference ReferenceType="i=47" IsForward="false">ns=1;g=47f45795-011f-4891-c267-9652ff9bef1b</Reference>
+    </References>
+    <Value>
+      <uax:Int32>0</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;g=b412b4bf-cf14-ee94-245d-b1cebdb97a07" ParentNodeId="ns=1;g=b9e18661-025b-b431-03d3-b797be7c0055" BrowseName="2:UnitId" WriteMask="594038" DataType="i=6" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=62</Reference>
+      <Reference ReferenceType="i=46" IsForward="false">ns=1;g=b9e18661-025b-b431-03d3-b797be7c0055</Reference>
+    </References>
+    <Value>
+      <uax:Int32>4408652</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;g=06da72cf-5dec-368c-d93c-682409a6acab" ParentNodeId="ns=1;g=2a586555-f146-447c-8844-be86e34b4d4b" BrowseName="1:VarRic2" WriteMask="594038" DataType="i=10" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference ReferenceType="i=47" IsForward="false">ns=1;g=2a586555-f146-447c-8844-be86e34b4d4b</Reference>
+    </References>
+    <Value>
+      <uax:Float>0</uax:Float>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;g=5e447cdb-4249-0063-6a4b-d976486d15cf" ParentNodeId="ns=1;g=f1aac753-b5b5-709f-9c72-1aa286cee149" BrowseName="EURange" WriteMask="594038" DataType="i=884" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">ns=2;i=5</Reference>
+      <Reference ReferenceType="i=46" IsForward="false">ns=1;g=f1aac753-b5b5-709f-9c72-1aa286cee149</Reference>
+    </References>
+    <Value>
+      <uax:ExtensionObject>
+        <uax:TypeId>
+          <uax:Identifier>i=886</uax:Identifier>
+        </uax:TypeId>
+        <uax:Body>
+          <uax:ByteString>AAAAAAAAAAAAAAAAAAAAAA==</uax:ByteString>
+        </uax:Body>
+      </uax:ExtensionObject>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;g=05c4e6e6-3812-fc5b-9877-7588563972c5" ParentNodeId="ns=1;g=b9e18661-025b-b431-03d3-b797be7c0055" BrowseName="2:Description" WriteMask="594038" DataType="i=21" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=62</Reference>
+      <Reference ReferenceType="i=46" IsForward="false">ns=1;g=b9e18661-025b-b431-03d3-b797be7c0055</Reference>
+    </References>
+    <Value>
+      <uax:LocalizedText>
+        <uax:Locale/>
+        <uax:Text/>
+      </uax:LocalizedText>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;g=1a82dee7-4cbe-0bd9-5c16-1d94c1b22a60" ParentNodeId="ns=1;g=46284732-6c19-f2ab-a29b-52427474c9b5" BrowseName="1:VarDL3" WriteMask="594038" DataType="i=6" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=63</Reference>
+      <Reference ReferenceType="i=47" IsForward="false">ns=1;g=46284732-6c19-f2ab-a29b-52427474c9b5</Reference>
+    </References>
+    <Value>
+      <uax:Int32>0</uax:Int32>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;g=9e6cf9e9-4864-6e77-9a9a-be5ae6e9ea1e" ParentNodeId="ns=1;g=b9e18661-025b-b431-03d3-b797be7c0055" BrowseName="2:DisplayName" WriteMask="594038" DataType="i=21" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">i=62</Reference>
+      <Reference ReferenceType="i=46" IsForward="false">ns=1;g=b9e18661-025b-b431-03d3-b797be7c0055</Reference>
+    </References>
+    <Value>
+      <uax:LocalizedText>
+        <uax:Locale/>
+        <uax:Text/>
+      </uax:LocalizedText>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;g=a7bffff8-aeec-5125-ee5c-d185e2e503bb" ParentNodeId="ns=1;g=f1aac753-b5b5-709f-9c72-1aa286cee149" BrowseName="EngineeringUnits" WriteMask="594038" DataType="i=887" AccessLevel="0">
+    <References>
+      <Reference ReferenceType="i=40">ns=2;i=4</Reference>
+      <Reference ReferenceType="i=46" IsForward="false">ns=1;g=f1aac753-b5b5-709f-9c72-1aa286cee149</Reference>
+    </References>
+    <Value>
+      <uax:ExtensionObject>
+        <uax:TypeId>
+          <uax:Identifier>i=889</uax:Identifier>
+        </uax:TypeId>
+        <uax:Body>
+          <uax:ByteString>AAAAAAAAAAADAAAAAAAAAAADAAAAAAAAAAA=</uax:ByteString>
+        </uax:Body>
+      </uax:ExtensionObject>
+    </Value>
+  </UAVariable>
+</UANodeSet>

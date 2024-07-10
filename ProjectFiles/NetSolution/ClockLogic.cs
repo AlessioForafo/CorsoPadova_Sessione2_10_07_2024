@@ -8,6 +8,8 @@ using FTOptix.NetLogic;
 using FTOptix.System;
 using FTOptix.Recipe;
 using FTOptix.WebUI;
+using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
 #endregion
 
 public class ClockLogic : BaseNetLogic

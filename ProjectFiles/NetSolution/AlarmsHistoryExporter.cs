@@ -18,6 +18,7 @@ using FTOptix.ODBCStore;
 using FTOptix.System;
 using FTOptix.Recipe;
 using FTOptix.WebUI;
+using FTOptix.OPCUAClient;
 #endregion
 
 public class AlarmsHistoryExporter : BaseNetLogic
