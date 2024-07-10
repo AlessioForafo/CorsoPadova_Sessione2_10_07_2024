@@ -7,6 +7,7 @@ using FTOptix.UI;
 using FTOptix.NetLogic;
 using FTOptix.System;
 using FTOptix.Recipe;
+using FTOptix.WebUI;
 #endregion
 
 public class ClockLogic : BaseNetLogic

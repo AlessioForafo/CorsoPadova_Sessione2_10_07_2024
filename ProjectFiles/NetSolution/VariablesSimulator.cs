@@ -3,6 +3,7 @@ using System;
 using UAManagedCore;
 using FTOptix.NetLogic;
 using FTOptix.Recipe;
+using FTOptix.WebUI;
 #endregion
 
 public class VariablesSimulator : BaseNetLogic

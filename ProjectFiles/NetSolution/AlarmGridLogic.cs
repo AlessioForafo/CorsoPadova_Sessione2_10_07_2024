@@ -9,6 +9,7 @@ using FTOptix.DataLogger;
 using FTOptix.ODBCStore;
 using FTOptix.System;
 using FTOptix.Recipe;
+using FTOptix.WebUI;
 #endregion
 
 public class AlarmGridLogic : BaseNetLogic

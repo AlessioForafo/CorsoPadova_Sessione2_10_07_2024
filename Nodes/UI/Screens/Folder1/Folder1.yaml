@@ -1,0 +1,15 @@
+Name: Folder1
+Type: FolderType
+Children:
+- Name: Screen11
+  Id: g=eba02c51df56d66e1cac2d1adf54c787
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: Screen12
+  Id: g=0b24425d4a670c81317278300a600edd
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: Screen13
+  Id: g=45a6ec79123eda3079fb908cfbb5eee6
+  Supertype: Screen
+  ReferenceType: HasComponent

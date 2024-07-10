@@ -1,7 +1,7 @@
 Name: Model
 Type: ModelCategoryFolder
 Children:
-- Name: Variable1
+- Name: ModelVariable1
   Type: BaseDataVariableType
   DataType: Int32
 - Name: Allarmi
@@ -17,3 +17,4 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
 - File: VariabiliRicetta/VariabiliRicetta.yaml
+- File: RetentivityTest/RetentivityTest.yaml

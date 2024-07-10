@@ -1,0 +1,8 @@
+Name: RetentivityTest
+Id: g=c121a6213e3dd123f7cfab0287b067dc
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=767fe476a789256f172995c4bb1ece7e
+  Type: BaseDataVariableType
+  DataType: Int32
