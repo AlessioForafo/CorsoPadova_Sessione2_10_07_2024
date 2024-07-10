@@ -142,10 +142,10 @@ Project:
    Uri: '608c45f016fe55a9cb3f6ca6955ffafc#http://opcfoundation.org/UA/DI/'
    ServerUri: 608c45f016fe55a9cb3f6ca6955ffafc
  Statistics:
-  TotalNodeCount: 3871
+  TotalNodeCount: 3872
   Objects: 758
   ObjectTypes: 31
-  Variables: 3054
+  Variables: 3055
   VariableTypes: 0
   DataTypes: 0
   Methods: 28
