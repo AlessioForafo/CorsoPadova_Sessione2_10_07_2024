@@ -1,2 +1,16 @@
 Name: Model
 Type: ModelCategoryFolder
+Children:
+- Name: Allarmi
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: VarDL1
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: VarDL2
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: VarDL3
+  Type: BaseDataVariableType
+  DataType: Int32
+- File: VariabiliRicetta/VariabiliRicetta.yaml
