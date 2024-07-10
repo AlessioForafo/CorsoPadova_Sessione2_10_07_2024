@@ -7992,6 +7992,43 @@ Children:
   Id: g=4c6a5189aa4fc62176f5ed1321ef48e7
   Supertype: Screen
   ReferenceType: HasComponent
+  Children:
+  - Name: SpinBox1
+    Type: SpinBox
+    Children:
+    - Name: Value
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 260.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 960.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 35.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 45.0
+    - Name: TextColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#00ff00"
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
 - Name: Screen9
   Id: g=0fe897ef8385640403ec28a8b6de072b
   Supertype: Screen
