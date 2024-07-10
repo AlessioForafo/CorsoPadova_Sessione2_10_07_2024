@@ -200,3 +200,32 @@ Children:
        "highestIgnoredVersion": 0
       }
      }
+- Name: DesignTimeNetLogic1
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: TestLog
+  - Class: Method
+    Name: CreaVariabiliModello
+  - Name: NumeroVariabiliDaCreare
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 10
+- Name: RuntimeNetLogic1
+  Id: g=711eaaf107ce1ad5a1b3e49ecc8b3e24
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: LogInput
+    Children:
+    - Name: ns=0;InputArguments
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"testo","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]

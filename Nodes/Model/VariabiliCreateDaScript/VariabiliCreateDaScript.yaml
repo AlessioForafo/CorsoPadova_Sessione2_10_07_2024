@@ -1,0 +1,44 @@
+Name: VariabiliCreateDaScript
+Id: g=720d4f0c23b3bbd71538d09f13658fe6
+Type: FolderType
+Children:
+- Name: Variabile0
+  Id: g=4d8393447bde48e7b33adc6f0810ef33
+  Type: BaseDataVariableType
+  DataType: Int16
+- Name: Variabile1
+  Id: g=94a48864767b43b7a719d026e064f1cf
+  Type: BaseDataVariableType
+  DataType: Int16
+- Name: Variabile2
+  Id: g=7a79562fc9344d0998888499e9d7afcd
+  Type: BaseDataVariableType
+  DataType: Int16
+- Name: Variabile3
+  Id: g=b5682ab1852542d5bde8712dd53f0595
+  Type: BaseDataVariableType
+  DataType: Int16
+- Name: Variabile4
+  Id: g=58e3c52671b54c44adfe1b8f20aa96df
+  Type: BaseDataVariableType
+  DataType: Int16
+- Name: Variabile5
+  Id: g=fa84629c30284907a261032cd54b6ad2
+  Type: BaseDataVariableType
+  DataType: Int16
+- Name: Variabile6
+  Id: g=37a739b41d404e22b79f7169ea5459db
+  Type: BaseDataVariableType
+  DataType: Int16
+- Name: Variabile7
+  Id: g=b4afb197af484ccba60ae0e6f9a8169c
+  Type: BaseDataVariableType
+  DataType: Int16
+- Name: Variabile8
+  Id: g=c3fe7dc52beb46a2b1222fd1f7ea9473
+  Type: BaseDataVariableType
+  DataType: Int16
+- Name: Variabile9
+  Id: g=afc9e39689714569a08592e210ec7015
+  Type: BaseDataVariableType
+  DataType: Int16

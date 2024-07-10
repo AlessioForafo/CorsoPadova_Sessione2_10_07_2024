@@ -142,15 +142,15 @@ Project:
    Uri: '608c45f016fe55a9cb3f6ca6955ffafc#http://opcfoundation.org/UA/DI/'
    ServerUri: 608c45f016fe55a9cb3f6ca6955ffafc
  Statistics:
-  TotalNodeCount: 3804
-  Objects: 742
+  TotalNodeCount: 3872
+  Objects: 758
   ObjectTypes: 31
-  Variables: 3006
+  Variables: 3055
   VariableTypes: 0
   DataTypes: 0
-  Methods: 25
-  References: 110
+  Methods: 28
+  References: 111
   ReferenceTypes: 0
-  Files: 29
+  Files: 30
  Nodes:
  - File: Nodes/CorsoPadova_Sessione2_10_07_2024.yaml
