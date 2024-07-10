@@ -166,7 +166,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/UI/UserEditor/EditUserDetailPanel"
+          Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/UI/MyWidgets/UserEditor/EditUserDetailPanel"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -236,7 +236,7 @@ Children:
           - Name: NoUsersPanel
             Type: NodePointer
             DataType: NodeId
-            Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/UI/UserEditor/NoUsersPanel"
+            Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/UI/MyWidgets/UserEditor/NoUsersPanel"
             Children:
             - Name: Kind
               Type: PropertyType
@@ -249,7 +249,7 @@ Children:
           - Name: UserDetailPanel
             Type: NodePointer
             DataType: NodeId
-            Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/UI/UserEditor/EditUserDetailPanel"
+            Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/UI/MyWidgets/UserEditor/EditUserDetailPanel"
             Children:
             - Name: Kind
               Type: PropertyType
@@ -351,7 +351,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Description: {"NamespaceIndex":3,"TextId":"ChangePanelNewPanelDescription"}
-                  Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/UI/UserEditor/CreateUserPanel"
+                  Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/UI/MyWidgets/UserEditor/CreateUserPanel"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId

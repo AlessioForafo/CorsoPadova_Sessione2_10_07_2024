@@ -416,7 +416,7 @@ Children:
   - Name: PasswordExpiredDialogType
     Type: Alias
     DataType: NodeId
-    Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/UI/LoginForm/LoginFormComponents/LoginPasswordExpiredDialog"
+    Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/UI/MyWidgets/LoginForm/LoginFormComponents/LoginPasswordExpiredDialog"
     Children:
     - Name: Kind
       Type: PropertyType

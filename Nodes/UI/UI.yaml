@@ -179,6 +179,7 @@ Children:
   - Name: EnableVirtualKeyboard
     Type: BaseDataVariableType
     DataType: Boolean
+    Value: true
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId
@@ -703,5 +704,4 @@ Children:
       ModellingRule: Optional
       Value: 3
 - File: Screens/Screens.yaml
-- File: LoginForm/LoginForm.yaml
-- File: UserEditor/UserEditor.yaml
+- File: MyWidgets/MyWidgets.yaml

@@ -6475,7 +6475,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../Users@NodeId"
+        Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/Security/Users@NodeId"
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -6678,7 +6678,7 @@ Children:
           - Name: Panel
             Type: NodePointer
             DataType: NodeId
-            Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/UI/UserEditor/EditUserDetailPanel"
+            Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/UI/MyWidgets/UserEditor/EditUserDetailPanel"
             Children:
             - Name: Kind
               Type: PropertyType
@@ -6700,7 +6700,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "../../UsersList/SelectedItem@Pointer@Value"
+              Value: "../../UsersList/SelectedItem@Value"
           - Name: UserEditorPanelLoaderLogic
             Type: NetLogic
             Children:
@@ -6715,7 +6715,7 @@ Children:
             - Name: NoUsersPanel
               Type: NodePointer
               DataType: NodeId
-              Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/UI/UserEditor/NoUsersPanel"
+              Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/UI/MyWidgets/UserEditor/NoUsersPanel"
               Children:
               - Name: Kind
                 Type: PropertyType
@@ -6723,7 +6723,7 @@ Children:
             - Name: UserDetailPanel
               Type: NodePointer
               DataType: NodeId
-              Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/UI/UserEditor/EditUserDetailPanel"
+              Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/UI/MyWidgets/UserEditor/EditUserDetailPanel"
               Children:
               - Name: Kind
                 Type: PropertyType
@@ -6772,7 +6772,7 @@ Children:
                   - Name: NewPanel
                     Type: BaseDataVariableType
                     DataType: NodeId
-                    Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/UI/UserEditor/CreateUserPanel"
+                    Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/UI/MyWidgets/UserEditor/CreateUserPanel"
                   - Name: AliasNode
                     Type: BaseDataVariableType
                     DataType: NodeId
@@ -7152,7 +7152,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 180.0
+      Value: 120.0
   - Name: Label5
     Type: Label
     Children:
@@ -7170,7 +7170,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 124.0
+      Value: 64.0
     - Name: FontSize
       Type: BaseDataVariableType
       DataType: Size
@@ -7335,7 +7335,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 520.0
+      Value: 460.0
   - Name: Button2
     Type: Button
     Children:
@@ -7353,7 +7353,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 560.0
+      Value: 495.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -7401,7 +7401,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{Session}/ActualLanguage@NodeId"
+                Value: "{Session}/ActualLocaleId@NodeId"
             - Name: Value
               Type: BaseDataVariableType
               DataType: LocaleId
@@ -7456,7 +7456,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 560.0
+      Value: 495.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -7504,7 +7504,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{Session}/ActualLanguage@NodeId"
+                Value: "{Session}/ActualLocaleId@NodeId"
             - Name: Value
               Type: BaseDataVariableType
               DataType: LocaleId
@@ -7559,7 +7559,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 500.0
+      Value: 440.0
   - Name: ComboBox1
     Type: ComboBox
     Children:
@@ -7630,7 +7630,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 640.0
+      Value: 575.0
     - Name: DisplayValuePath
       Type: BaseDataVariableType
       DataType: LocalizedText
@@ -7667,11 +7667,327 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 640.0
+      Value: 575.0
+  - Name: MyWidget1
+    Type: MyWidget
+    Children:
+    - Name: SpinBox1
+      Type: SpinBox
+      Children:
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Double
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../InputVar"
+          Children:
+          - Name: EUMode
+            Type: BaseVariableType
+            DataType: DynamicLinkEUMode
+    - Name: Label1
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../InputVar/EngineeringUnits/DisplayName"
+          Children:
+          - Name: EUMode
+            Type: BaseVariableType
+            DataType: DynamicLinkEUMode
+    - Name: InputVar
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: EngineeringUnits
+        Type: EUInformationType
+        DataType: EUInformation
+        Children:
+        - Name: UnitId
+          Type: BaseVariableType
+          DataType: Int32
+          ReferenceType: HasProperty
+          Value: 5060144
+        - Name: DisplayName
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+        - Name: Description
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/Model/Measurement System/Variable2"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 920.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 625.0
+  - Name: MyWidget2
+    Type: MyWidget
+    Children:
+    - Name: SpinBox1
+      Type: SpinBox
+      Children:
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Double
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../InputVar"
+          Children:
+          - Name: EUMode
+            Type: BaseVariableType
+            DataType: DynamicLinkEUMode
+    - Name: Label1
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../InputVar/EngineeringUnits/DisplayName"
+          Children:
+          - Name: EUMode
+            Type: BaseVariableType
+            DataType: DynamicLinkEUMode
+    - Name: InputVar
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: EngineeringUnits
+        Type: EUInformationType
+        DataType: EUInformation
+        Children:
+        - Name: UnitId
+          Type: BaseVariableType
+          DataType: Int32
+          ReferenceType: HasProperty
+          Value: 4408652
+        - Name: DisplayName
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+        - Name: Description
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/Model/Measurement System/Variable3"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 920.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 705.0
+  - Name: Label7
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/Model/Measurement System/Variable3"
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1225.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 740.0
+  - Name: TextBox1
+    Type: TextBox
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 770.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 75.0
 - Name: Screen7
   Id: g=608a53a8cedb5b1890dd1d3d13984e6f
   Supertype: Screen
   ReferenceType: HasComponent
+  Children:
+  - Name: DelayedButton1
+    Type: DelayedButton
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"DelayedButton1"}
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 120.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 40.0
+    - Name: Delay
+      Type: BaseDataVariableType
+      DataType: Duration
+      ModellingRule: Optional
+      Value: "0:00:00:5.0000000"
+    - Name: MouseLongPressEventHandler1
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseLongPress"
+      - Name: MethodsToCall
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Type: BaseObjectType
+          Children:
+          - Name: ns=2;ObjectPointer
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/Commands/VariableCommands"
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: ns=2;Method
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Increment"
+          - Name: InputArguments
+            Type: BaseObjectType
+            Children:
+            - Name: VariableToModify
+              Type: BaseDataVariableType
+              DataType: VariablePointer
+              Description: {"NamespaceIndex":2,"TextId":"IncrementVariableToModifyDescription"}
+              Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/Model/Measurement System/Variable3"
+            - Name: Delta
+              Type: BaseDataVariableType
+              DataType: Float
+              Description: {"NamespaceIndex":2,"TextId":"IncrementDeltaDescription"}
+              Value: 12.0
+            - Name: ArrayIndex
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Description: {"NamespaceIndex":2,"TextId":"IncrementArrayIndexDescription"}
+              ValueRank: ScalarOrOneDimension
+      - Name: EventArguments
+        Type: MouseLongPress
+        Children:
+        - Name: EventId
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Type: PropertyType
+          DataType: UInt16
+  - Name: Label1
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/Model/Measurement System/Variable3"
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 220.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 65.0
 - Name: Screen8
   Id: g=4c6a5189aa4fc62176f5ed1321ef48e7
   Supertype: Screen

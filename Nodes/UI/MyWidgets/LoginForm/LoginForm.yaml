@@ -31,13 +31,13 @@ Children:
         DataType: NodeId
         ReferenceType: HasParameter
         ModellingRule: Optional
-        Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/UI/LoginForm/LoginFormComponents/Logout"
+        Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/UI/MyWidgets/LoginForm/LoginFormComponents/Logout"
       - Name: FalseValue
         Type: BaseDataVariableType
         DataType: NodeId
         ReferenceType: HasParameter
         ModellingRule: Optional
-        Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/UI/LoginForm/LoginFormComponents/Login"
+        Value: "/Objects/CorsoPadova_Sessione2_10_07_2024/UI/MyWidgets/LoginForm/LoginFormComponents/Login"
   - Name: CurrentPanel
     Type: NodePointer
     DataType: NodeId
