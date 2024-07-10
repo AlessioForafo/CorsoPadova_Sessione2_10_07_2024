@@ -1,0 +1,33 @@
+Name: VariabiliCreateDaScript
+Type: FolderType
+Children:
+- Name: Variabile0
+  Type: BaseDataVariableType
+  DataType: Int16
+- Name: Variabile1
+  Type: BaseDataVariableType
+  DataType: Int16
+- Name: Variabile2
+  Type: BaseDataVariableType
+  DataType: Int16
+- Name: Variabile3
+  Type: BaseDataVariableType
+  DataType: Int16
+- Name: Variabile4
+  Type: BaseDataVariableType
+  DataType: Int16
+- Name: Variabile5
+  Type: BaseDataVariableType
+  DataType: Int16
+- Name: Variabile6
+  Type: BaseDataVariableType
+  DataType: Int16
+- Name: Variabile7
+  Type: BaseDataVariableType
+  DataType: Int16
+- Name: Variabile8
+  Type: BaseDataVariableType
+  DataType: Int16
+- Name: Variabile9
+  Type: BaseDataVariableType
+  DataType: Int16
