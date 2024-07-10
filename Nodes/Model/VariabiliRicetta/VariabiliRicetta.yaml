@@ -1,0 +1,17 @@
+Name: VariabiliRicetta
+Id: g=2a586555f146447c8844be86e34b4d4b
+Type: FolderType
+Children:
+- Name: VarRic1
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: VarRic2
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: VarRic3
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: VarRic4
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
