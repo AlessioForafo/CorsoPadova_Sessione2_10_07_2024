@@ -4,6 +4,8 @@ using UAManagedCore;
 using FTOptix.NetLogic;
 using FTOptix.Recipe;
 using FTOptix.WebUI;
+using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
 #endregion
 
 public class VariablesSimulator : BaseNetLogic

@@ -121,16 +121,44 @@ Project:
    Uri: 'urn:FTOptix:WebUI:Net'
    Module: FTOptix.WebUI.Net
    Version: 1.1
+  33:
+   Uri: 'urn:FTOptix:OPCUAServer'
+   Module: FTOptix.OPCUAServer
+   Version: 1.1
+  34:
+   Uri: 'urn:FTOptix:OPCUAServer:Net'
+   Module: FTOptix.OPCUAServer.Net
+   Version: 1.1
+  35:
+   Uri: '608c45f016fe55a9cb3f6ca6955ffafc#urn:3K9SSL3:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 608c45f016fe55a9cb3f6ca6955ffafc
+  36:
+   Uri: '608c45f016fe55a9cb3f6ca6955ffafc#http://PLCopen.org/OpcUa/IEC61131-3/'
+   ServerUri: 608c45f016fe55a9cb3f6ca6955ffafc
+  37:
+   Uri: '608c45f016fe55a9cb3f6ca6955ffafc#http://www.unifiedautomation.com/DemoServer/'
+   ServerUri: 608c45f016fe55a9cb3f6ca6955ffafc
+  38:
+   Uri: '608c45f016fe55a9cb3f6ca6955ffafc#http://opcfoundation.org/UA/DI/'
+   ServerUri: 608c45f016fe55a9cb3f6ca6955ffafc
+  39:
+   Uri: 'urn:FTOptix:OPCUAClient'
+   Module: FTOptix.OPCUAClient
+   Version: 1.2
+  40:
+   Uri: 'urn:FTOptix:OPCUAClient:Net'
+   Module: FTOptix.OPCUAClient.Net
+   Version: 1.1
  Statistics:
-  TotalNodeCount: 3780
-  Objects: 736
-  ObjectTypes: 31
-  Variables: 2988
-  VariableTypes: 0
-  DataTypes: 0
-  Methods: 25
-  References: 110
+  TotalNodeCount: 6409
+  Objects: 832
+  ObjectTypes: 35
+  Variables: 5485
+  VariableTypes: 1
+  DataTypes: 8
+  Methods: 48
+  References: 119
   ReferenceTypes: 0
-  Files: 29
+  Files: 96
  Nodes:
  - File: Nodes/CorsoPadova_Sessione2_10_07_2024.yaml

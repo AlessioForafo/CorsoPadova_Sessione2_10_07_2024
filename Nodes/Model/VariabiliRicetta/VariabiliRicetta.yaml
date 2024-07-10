@@ -3,15 +3,19 @@ Id: g=2a586555f146447c8844be86e34b4d4b
 Type: FolderType
 Children:
 - Name: VarRic1
+  Id: g=ab6e1c6b5cac8754061c528d042b80cf
   Type: BaseDataVariableType
   DataType: Int32
 - Name: VarRic2
+  Id: g=06da72cf5dec368cd93c682409a6acab
   Type: BaseDataVariableType
   DataType: Float
 - Name: VarRic3
+  Id: g=a391c34ddafed5a6fba4950ad8d597f3
   Type: BaseDataVariableType
   DataType: Boolean
 - Name: VarRic4
+  Id: g=9fa6472438212fdd18beeb25fb45cda4
   Type: BaseDataVariableType
   DataType: String
   Value: "0"
